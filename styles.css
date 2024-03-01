@@ -1,0 +1,76 @@
+/* Estilos para el cuerpo y fondo */
+body {
+    background-color: #f8f9fa; /* Gris claro */
+    color: #343a40; /* Gris oscuro */
+}
+
+.container {
+    padding-top: 20px;
+}
+
+/* Estilos para los títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #495057; /* Gris medio */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #6c757d; /* Gris */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #ffffff; /* Blanco */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Blanco */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e9ecef; /* Gris claro */
+}
+
+/* Estilos para la página de inicio */
+.jumbotron {
+    background-color: #ffffff; /* Blanco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la lista de habilidades */
+.list-group-item {
+    background-color: #ffffff; /* Blanco */
+    border: none;
+}
+
+/* Estilos para el formulario de contacto */
+.form-group {
+    margin-bottom: 20px;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #6c757d; /* Gris */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a6268; /* Gris más oscuro */
+    
+}
+.profile-picture-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile-picture {
+    width: 100%;
+    height: auto;
+}

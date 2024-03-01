@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Contacto - {{ super() }}{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">¡Contáctame!</h1>
+            <p class="lead">¿Tienes alguna pregunta o consulta? ¡No dudes en ponerte en contacto conmigo!</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Información de contacto</h2>
+                <p>Estoy disponible para oportunidades laborales, colaboraciones o cualquier otra consulta. Puedes contactarme a través de los siguientes medios:</p>
+                <ul class="list-unstyled">
+                    <li><strong>Correo electrónico:</strong> andrescuxinxool@gmail.com</li>
+                    <li><strong>Número de teléfono:</strong> +52 9991096594</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>Formulario de contacto</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" class="form-control" id="correo" name="correo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
